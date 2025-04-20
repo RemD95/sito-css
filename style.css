@@ -58,4 +58,13 @@
     overflow: hidden;
   }
   /*fine ex.2*/
+    /*inizio ex.3*/ 
+    .image {
+        float: right;
+        width: 50%;
+    }
+    .para2{
+        float: left;
+        width: 50%;
+    }
 
