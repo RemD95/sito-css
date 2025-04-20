@@ -1,0 +1,54 @@
+@import url(./root.css);
+
+.header{
+    background-color: #f1f1f1 ;
+    padding: 20px ;
+    text-align: center ;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+.navbar a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.c {
+    float: left;
+    padding: 10px;
+}
+.c.sides {
+    width: 25%;
+}
+.c.main {
+    width: 50%;
+}
+
+.mainrow::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .c .sides, .c .middle {
+        width: 100%;
+        display: block;
+    }
+    
+}
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
