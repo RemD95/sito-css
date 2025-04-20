@@ -1,5 +1,5 @@
 @import url(./root.css);
-
+/* inizio ex.1*/
 .header{
     background-color: #f1f1f1 ;
     padding: 20px ;
@@ -52,3 +52,10 @@
     padding: 10px;
     text-align: center;
   }
+  /*fine ex.1*/
+  /*inizio ex.2*/
+  .para {
+    overflow: hidden;
+  }
+  /*fine ex.2*/
+
