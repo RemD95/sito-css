@@ -70,5 +70,18 @@
     .para3{
         clear: both;
     }
+    /*fine ex.3*/
+    /*inizio ex.4*/
+    .column{
+        float: left;
+        width: 33.3%;
+        padding: 15px;
+    }
+    .vlore::after {
+        content: "";
+        display: table;
+        clear: both;
+
+    }
 
 
