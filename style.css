@@ -55,7 +55,7 @@
   /*fine ex.1*/
   /*inizio ex.2*/
   .para {
-    overflow: hidden;
+    display: none;
   }
   /*fine ex.2*/
     /*inizio ex.3*/ 
@@ -81,7 +81,9 @@
         content: "";
         display: table;
         clear: both;
-
     }
+    /*fine ex.4*/
+    /*inizio ex.5*/
+    
 
 
