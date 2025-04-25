@@ -104,12 +104,56 @@
         width: 200px;
         height: 200px;
         background-color: aqua;
-        position: absolute;
+        position: relative;
         bottom: 10px;
-        left:90%;
+        left: 80%;
         top: 90%; 
         right: 10px;
         border: black solid 2px;
+        align-items: center;
+        display: flex;
+    }
+    .square p {
+        padding: 10px;
+        font-size: 15px;
+    }
+    /*fine ex.8*/
+    /*ex.9*/
+    .card{
+        width: 300px;
+        height: 150px;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 15px;
+        margin: 20px;
+        display: flex;
+        align-items: self-start;
+        position:relative;
+        bottom: 200px;
+
+    }
+    
+    .card-content{
+        padding: 10px;
+
+
     }
 
+    .card-title{
+        font-size: 18px;
+    }
+
+    .card-text{
+        font-size: 14px;
+    }
+    .x-button{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        background-color: red;
+        color: #ddd;
+        cursor: pointer;
+        font-size: 18px;
+        border: 1px solid black;
+    }
 
